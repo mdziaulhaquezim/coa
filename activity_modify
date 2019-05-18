@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@attr/0x7f040096"
+    android:fitsSystemWindows="true"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="-1"
+        android:layout_height="-2"
+        app:elevation="dimension(1)"
+        app:layout_behavior="@ref/0x7f120032">
+
+        <FrameLayout
+            android:layout_width="-1"
+            android:layout_height="-2">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@ref/0x7f0a0079"
+                android:layout_width="-1"
+                android:layout_height="@attr/0x7f040003">
+
+                <TextView
+                    android:textAppearance="@ref/0x7f130166"
+                    android:textColor="@ref/0x7f0601b0"
+                    android:layout_gravity="0x11"
+                    android:id="@ref/0x7f0a007a"
+                    android:layout_width="-2"
+                    android:layout_height="-2" />
+            </androidx.appcompat.widget.Toolbar>
+
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                android:layout_gravity="0x50"
+                android:id="@ref/0x7f0a006f"
+                android:visibility="1"
+                android:layout_width="-1"
+                android:layout_height="dimension(1025)"
+                android:indeterminate="true"
+                app:mpb_progressStyle="1"
+                app:mpb_useIntrinsicPadding="false"
+                style="@ref/0x7f13022c" />
+        </FrameLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="-1"
+        android:layout_height="-1"
+        app:layout_behavior="@ref/0x7f120031">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="1"
+            android:layout_width="-1"
+            android:layout_height="-2">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="1"
+                android:id="@ref/0x7f0a008f"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                app:layout_constraintGuide_percent="1041865088.000000" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@ref/0x7f0a006a"
+                android:layout_width="dimension(1)"
+                android:layout_height="-2"
+                android:layout_marginTop="dimension(2049)"
+                android:layout_marginRight="dimension(4097)"
+                android:hint="@ref/0x7f12005c"
+                app:layout_constraintEnd_toEndOf="0"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintTop_toTopOf="0">
+
+                <bd.edu.daffodilvarsity.classorganizer.ui.TextInputAutoCompleteTextView
+                    android:id="@ref/0x7f0a0069"
+                    android:layout_width="-1"
+                    android:layout_height="-1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@ref/0x7f0a0065"
+                android:layout_width="dimension(1)"
+                android:layout_height="-2"
+                android:layout_marginTop="dimension(4097)"
+                android:layout_marginRight="dimension(4097)"
+                android:hint="@ref/0x7f12005a"
+                app:layout_constraintEnd_toEndOf="0"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintTop_toBottomOf="@ref/0x7f0a006a">
+
+                <bd.edu.daffodilvarsity.classorganizer.ui.TextInputAutoCompleteTextView
+                    android:id="@ref/0x7f0a0064"
+                    android:layout_width="-1"
+                    android:layout_height="-2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@ref/0x7f0a0068"
+                android:layout_width="dimension(1)"
+                android:layout_height="-2"
+                android:layout_marginTop="dimension(4097)"
+                android:layout_marginRight="dimension(4097)"
+                android:hint="@ref/0x7f120116"
+                app:layout_constraintEnd_toEndOf="0"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintTop_toBottomOf="@ref/0x7f0a0065">
+
+                <bd.edu.daffodilvarsity.classorganizer.ui.TextInputAutoCompleteTextView
+                    android:id="@ref/0x7f0a0067"
+                    android:layout_width="-1"
+                    android:layout_height="-2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@ref/0x7f0a0071"
+                android:layout_width="dimension(1)"
+                android:layout_height="-2"
+                android:layout_marginTop="dimension(4097)"
+                android:layout_marginRight="dimension(4097)"
+                android:hint="@ref/0x7f1200dc"
+                app:layout_constraintEnd_toEndOf="0"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintTop_toBottomOf="@ref/0x7f0a0068">
+
+                <bd.edu.daffodilvarsity.classorganizer.ui.TextInputAutoCompleteTextView
+                    android:id="@ref/0x7f0a0070"
+                    android:layout_width="-1"
+                    android:layout_height="-2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@ref/0x7f0a0074"
+                android:layout_width="dimension(1)"
+                android:layout_height="-2"
+                android:layout_marginTop="dimension(4097)"
+                android:layout_marginRight="dimension(4097)"
+                android:hint="@ref/0x7f1200ee"
+                app:layout_constraintEnd_toEndOf="0"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintTop_toBottomOf="@ref/0x7f0a0071">
+
+                <bd.edu.daffodilvarsity.classorganizer.ui.TextInputAutoCompleteTextView
+                    android:id="@ref/0x7f0a0072"
+                    android:layout_width="-1"
+                    android:layout_height="-2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:textAppearance="@ref/0x7f130159"
+                android:textColor="@ref/0x7f0600e1"
+                android:id="@ref/0x7f0a0078"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(769)"
+                android:layout_marginTop="dimension(4097)"
+                android:text="@ref/0x7f12011d"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a0074"
+                app:layout_constraintTop_toBottomOf="@ref/0x7f0a0074" />
+
+            <bd.edu.daffodilvarsity.classorganizer.ui.SpinnerWithListener
+                android:gravity="0x800003"
+                android:id="@ref/0x7f0a0076"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintTop_toBottomOf="@ref/0x7f0a0078" />
+
+            <TextView
+                android:textAppearance="@ref/0x7f130159"
+                android:textColor="@ref/0x7f0600e1"
+                android:id="@ref/0x7f0a006d"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(769)"
+                android:layout_marginTop="dimension(4097)"
+                android:text="@ref/0x7f12005d"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a0076"
+                app:layout_constraintTop_toBottomOf="@ref/0x7f0a0076" />
+
+            <bd.edu.daffodilvarsity.classorganizer.ui.SpinnerWithListener
+                android:gravity="0x800003"
+                android:id="@ref/0x7f0a006b"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginBottom="dimension(16385)"
+                app:layout_constraintBottom_toBottomOf="0"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintTop_toBottomOf="@ref/0x7f0a006d" />
+
+            <ImageView
+                android:id="@ref/0x7f0a0073"
+                android:layout_width="dimension(6145)"
+                android:layout_height="dimension(6145)"
+                android:layout_marginTop="dimension(2049)"
+                app:layout_constraintBottom_toBottomOf="@ref/0x7f0a0074"
+                app:layout_constraintEnd_toStartOf="@ref/0x7f0a0074"
+                app:layout_constraintStart_toStartOf="0"
+                app:layout_constraintTop_toTopOf="@ref/0x7f0a0074"
+                app:srcCompat="@ref/0x7f080094" />
+
+            <ImageView
+                android:id="@ref/0x7f0a0066"
+                android:layout_width="dimension(6145)"
+                android:layout_height="dimension(6145)"
+                android:layout_marginTop="dimension(2049)"
+                app:layout_constraintBottom_toBottomOf="@ref/0x7f0a006a"
+                app:layout_constraintEnd_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintStart_toStartOf="0"
+                app:layout_constraintTop_toTopOf="@ref/0x7f0a006a"
+                app:srcCompat="@ref/0x7f080082" />
+
+            <ImageView
+                android:id="@ref/0x7f0a0075"
+                android:layout_width="dimension(6145)"
+                android:layout_height="dimension(6145)"
+                android:layout_marginTop="dimension(2049)"
+                app:layout_constraintBottom_toBottomOf="@ref/0x7f0a0068"
+                app:layout_constraintEnd_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintHorizontal_bias="1054313792.000000"
+                app:layout_constraintStart_toStartOf="0"
+                app:layout_constraintTop_toTopOf="@ref/0x7f0a0068"
+                app:srcCompat="@ref/0x7f080097" />
+
+            <ImageView
+                android:id="@ref/0x7f0a0077"
+                android:layout_width="dimension(6145)"
+                android:layout_height="dimension(6145)"
+                app:layout_constraintBottom_toBottomOf="@ref/0x7f0a0076"
+                app:layout_constraintEnd_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintStart_toStartOf="0"
+                app:layout_constraintTop_toTopOf="@ref/0x7f0a0076"
+                app:srcCompat="@ref/0x7f08007f" />
+
+            <ImageView
+                android:id="@ref/0x7f0a006c"
+                android:layout_width="dimension(6145)"
+                android:layout_height="dimension(6145)"
+                app:layout_constraintBottom_toBottomOf="@ref/0x7f0a006b"
+                app:layout_constraintEnd_toStartOf="@ref/0x7f0a008f"
+                app:layout_constraintStart_toStartOf="0"
+                app:layout_constraintTop_toTopOf="@ref/0x7f0a006b"
+                app:srcCompat="@ref/0x7f08007c" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
