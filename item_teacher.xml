@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@ref/0x7f0a00be"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:layout_margin="dimension(2049)"
+    app:cardCornerRadius="dimension(2049)"
+    app:cardElevation="dimension(513)">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="-1"
+        android:layout_height="-2">
+
+        <TextView
+            android:textAppearance="@ref/0x7f130161"
+            android:textSize="dimension(5122)"
+            android:textColor="@ref/0x7f0601b0"
+            android:id="@ref/0x7f0a00bf"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            android:layout_marginTop="dimension(2049)"
+            android:layout_marginRight="dimension(4097)"
+            android:textIsSelectable="true"
+            android:fontFamily="@ref/0x7f090000"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toTopOf="0" />
+
+        <TextView
+            android:textAppearance="@ref/0x7f130168"
+            android:textSize="dimension(4098)"
+            android:textColor="@ref/0x7f0601b1"
+            android:id="@ref/0x7f0a00b9"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00bf" />
+
+        <TextView
+            android:textAppearance="@ref/0x7f13015f"
+            android:textSize="dimension(4098)"
+            android:textColor="@attr/0x7f04008f"
+            android:gravity="0x800015"
+            android:layout_gravity="0x10"
+            android:id="@ref/0x7f0a00b8"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginRight="dimension(4097)"
+            android:maxWidth="dimension(39681)"
+            android:includeFontPadding="false"
+            app:autoSizeMaxTextSize="dimension(4098)"
+            app:autoSizeMinTextSize="dimension(3586)"
+            app:autoSizeStepGranularity="dimension(258)"
+            app:autoSizeTextType="1"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00bf" />
+
+        <View
+            android:id="@ref/0x7f0a00c4"
+            android:background="@attr/0x7f04008f"
+            android:layout_width="-1"
+            android:layout_height="dimension(257)"
+            android:layout_marginLeft="dimension(4097)"
+            android:layout_marginRight="dimension(4097)"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00b9" />
+
+        <TextView
+            android:textColor="@ref/0x7f0601b1"
+            android:id="@ref/0x7f0a00c3"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            android:layout_marginTop="dimension(2049)"
+            android:text="Room"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00c4" />
+
+        <TextView
+            android:textSize="dimension(4098)"
+            android:textColor="@ref/0x7f0601b0"
+            android:id="@ref/0x7f0a00c2"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00c3" />
+
+        <TextView
+            android:textColor="@ref/0x7f0601b1"
+            android:id="@ref/0x7f0a00bd"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(2049)"
+            android:layout_marginRight="dimension(4097)"
+            android:text="Faculty"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00c4" />
+
+        <TextView
+            android:textSize="dimension(4098)"
+            android:textColor="@ref/0x7f0601b0"
+            android:id="@ref/0x7f0a00bc"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginRight="dimension(4097)"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00bd" />
+
+        <TextView
+            android:textColor="@ref/0x7f0601b1"
+            android:id="@ref/0x7f0a00bb"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            android:text="Email"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00c2" />
+
+        <TextView
+            android:textSize="dimension(4098)"
+            android:textColor="@ref/0x7f0601b0"
+            android:id="@ref/0x7f0a00ba"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            android:textIsSelectable="true"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00bb" />
+
+        <TextView
+            android:textColor="@ref/0x7f0601b1"
+            android:id="@ref/0x7f0a00c1"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            android:text="Phone"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00ba" />
+
+        <TextView
+            android:textSize="dimension(4098)"
+            android:textColor="@ref/0x7f0601b0"
+            android:id="@ref/0x7f0a00c0"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            android:layout_marginBottom="dimension(2049)"
+            android:textIsSelectable="true"
+            app:layout_constraintBottom_toBottomOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00c1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@ref/0x7f0a00b7"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginRight="dimension(4097)"
+            android:layout_marginBottom="dimension(2049)"
+            android:text="@ref/0x7f120059"
+            app:layout_constraintBottom_toBottomOf="0"
+            app:layout_constraintEnd_toEndOf="0"
+            style="@ref/0x7f13020e" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@ref/0x7f0a0107"
+    android:background="@ref/0x0106000d"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="1"
+        android:id="@ref/0x7f0a0106"
+        android:layout_width="-1"
+        android:layout_height="-1"
+        app:layout_dodgeInsetEdges="0x50">
+
+        <com.heinrichreimersoftware.materialintro.view.FadeableViewPager
+            android:id="@ref/0x7f0a0109"
+            android:layout_width="dimension(1)"
+            android:layout_height="dimension(1)"
+            android:layout_marginBottom="@ref/0x7f0700c5"
+            app:layout_constraintBottom_toTopOf="@ref/0x7f0a0102"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toTopOf="0" />
+
+        <ImageButton
+            android:id="@ref/0x7f0a0101"
+            android:background="@ref/0x7f0800ac"
+            android:padding="@ref/0x7f0700c4"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_margin="@ref/0x7f0700c4"
+            android:src="@ref/0x7f0800b1"
+            android:contentDescription="@ref/0x7f1200a6"
+            app:layout_constraintBottom_toBottomOf="0"
+            app:layout_constraintStart_toStartOf="0" />
+
+        <ImageButton
+            android:id="@ref/0x7f0a0104"
+            android:background="@ref/0x7f0800ac"
+            android:padding="@ref/0x7f0700c4"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_margin="@ref/0x7f0700c4"
+            android:src="@ref/0x7f0800af"
+            android:contentDescription="@ref/0x7f1200a7"
+            app:layout_constraintBottom_toBottomOf="0"
+            app:layout_constraintEnd_toEndOf="0" />
+
+        <com.heinrichreimersoftware.materialintro.view.InkPageIndicator
+            android:id="@ref/0x7f0a010a"
+            android:layout_width="dimension(1)"
+            android:layout_height="-2"
+            android:layout_marginBottom="@ref/0x7f0700c7"
+            app:dotDiameter="dimension(2561)"
+            app:dotGap="@ref/0x7f0700c5"
+            app:layout_constraintBottom_toBottomOf="0"
+            app:layout_constraintEnd_toStartOf="@ref/0x7f0a0104"
+            app:layout_constraintStart_toEndOf="@ref/0x7f0a0101" />
+
+        <TextSwitcher
+            android:layout_gravity="0x1"
+            android:id="@ref/0x7f0a0102"
+            android:clipChildren="false"
+            android:layout_width="-2"
+            android:layout_height="dimension(12289)"
+            android:layout_marginBottom="@ref/0x7f0700c4"
+            app:layout_constraintBottom_toTopOf="@ref/0x7f0a010a"
+            app:layout_constraintEnd_toStartOf="@ref/0x7f0a0104"
+            app:layout_constraintStart_toEndOf="@ref/0x7f0a0101">
+
+            <Button
+                android:textColor="@attr/0x1010039"
+                android:gravity="0x11"
+                android:layout_gravity="0x11"
+                android:paddingLeft="@ref/0x7f0700c4"
+                android:paddingTop="@ref/0x7f0700c5"
+                android:paddingRight="@ref/0x7f0700c4"
+                android:paddingBottom="@ref/0x7f0700c5"
+                android:layout_width="-2"
+                android:layout_height="-1"
+                android:text="@ref/0x7f1200aa"
+                android:maxLines="1"
+                android:minLines="1" />
+
+            <Button
+                android:textColor="@attr/0x1010039"
+                android:gravity="0x11"
+                android:layout_gravity="0x11"
+                android:paddingLeft="@ref/0x7f0700c4"
+                android:paddingTop="@ref/0x7f0700c5"
+                android:paddingRight="@ref/0x7f0700c4"
+                android:paddingBottom="@ref/0x7f0700c5"
+                android:visibility="2"
+                android:layout_width="-2"
+                android:layout_height="-1"
+                android:text="@ref/0x7f1200aa"
+                android:maxLines="1"
+                android:minLines="1" />
+        </TextSwitcher>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

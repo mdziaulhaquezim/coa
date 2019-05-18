@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@ref/0x7f0a00a9"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:layout_margin="dimension(2049)"
+    app:cardCornerRadius="dimension(2049)"
+    app:cardElevation="dimension(513)">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="-1"
+        android:layout_height="-2">
+
+        <TextView
+            android:textAppearance="@ref/0x7f130161"
+            android:textSize="dimension(5122)"
+            android:textColor="@ref/0x7f0601b0"
+            android:id="@ref/0x7f0a00b6"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            android:layout_marginTop="dimension(2049)"
+            android:layout_marginRight="dimension(4097)"
+            android:fontFamily="@ref/0x7f090000"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toTopOf="0" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@ref/0x7f0a00b4"
+            android:layout_width="-1"
+            android:layout_height="dimension(8193)"
+            android:layout_marginLeft="dimension(4097)"
+            android:layout_marginTop="dimension(2049)"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00b6">
+
+            <LinearLayout
+                android:orientation="0"
+                android:id="@ref/0x7f0a00a6"
+                android:layout_width="dimension(1)"
+                android:layout_height="dimension(8193)"
+                app:layout_constraintEnd_toStartOf="@ref/0x7f0a003c"
+                app:layout_constraintStart_toStartOf="0"
+                app:layout_constraintTop_toTopOf="0">
+
+                <TextView
+                    android:textAppearance="@ref/0x7f130168"
+                    android:textSize="dimension(4098)"
+                    android:textColor="@ref/0x7f0601b1"
+                    android:id="@ref/0x7f0a00a5"
+                    android:layout_width="-2"
+                    android:layout_height="-2" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@ref/0x7f0a00b5"
+                android:layout_width="dimension(4097)"
+                android:layout_height="dimension(4097)"
+                android:layout_marginRight="dimension(1025)"
+                android:tint="@attr/0x7f040096"
+                app:layout_constraintBottom_toBottomOf="0"
+                app:layout_constraintEnd_toStartOf="@ref/0x7f0a003c"
+                app:layout_constraintTop_toTopOf="0"
+                app:srcCompat="@ref/0x7f08007f" />
+
+            <LinearLayout
+                android:id="@ref/0x7f0a003c"
+                android:background="@attr/0x7f04008f"
+                android:layout_width="dimension(1)"
+                android:layout_height="dimension(8193)"
+                app:layout_constraintBottom_toBottomOf="0"
+                app:layout_constraintEnd_toEndOf="0"
+                app:layout_constraintStart_toStartOf="@ref/0x7f0a00a8"
+                app:layout_constraintTop_toTopOf="0">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textAppearance="@ref/0x7f13015f"
+                    android:textSize="dimension(4098)"
+                    android:textColor="@attr/0x7f040096"
+                    android:gravity="0x800015"
+                    android:layout_gravity="0x10"
+                    android:id="@ref/0x7f0a00b3"
+                    android:layout_width="-1"
+                    android:layout_height="-1"
+                    android:layout_marginRight="dimension(4097)"
+                    android:maxWidth="dimension(39681)"
+                    android:includeFontPadding="false"
+                    app:autoSizeMaxTextSize="dimension(4098)"
+                    app:autoSizeMinTextSize="dimension(3074)"
+                    app:autoSizeStepGranularity="dimension(258)"
+                    app:autoSizeTextType="1"
+                    app:layout_constraintBottom_toBottomOf="0"
+                    app:layout_constraintEnd_toEndOf="0"
+                    app:layout_constraintTop_toTopOf="0" />
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="1"
+                android:id="@ref/0x7f0a00a8"
+                android:background="@attr/0x7f04008f"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                app:layout_constraintGuide_percent="1056964608.000000" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:textColor="@ref/0x7f0601b1"
+            android:id="@ref/0x7f0a00b2"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(4097)"
+            android:layout_marginTop="dimension(2049)"
+            android:text="@ref/0x7f120115"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00b4" />
+
+        <TextView
+            android:textSize="dimension(4098)"
+            android:textColor="@ref/0x7f0601b0"
+            android:id="@ref/0x7f0a00b1"
+            android:layout_width="-2"
+            android:layout_height="dimension(5633)"
+            android:layout_marginLeft="dimension(4097)"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00b2" />
+
+        <TextView
+            android:textColor="@ref/0x7f0601b1"
+            android:id="@ref/0x7f0a00b0"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(2049)"
+            android:layout_marginRight="dimension(4097)"
+            android:text="@ref/0x7f1200da"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00b4" />
+
+        <TextView
+            android:textSize="dimension(4098)"
+            android:textColor="@ref/0x7f0601b0"
+            android:id="@ref/0x7f0a00af"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginRight="dimension(4097)"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00b0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:textColor="@attr/0x7f04008f"
+            android:id="@ref/0x7f0a00a7"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(2049)"
+            android:text="@ref/0x7f120068"
+            app:layout_constraintBottom_toBottomOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@ref/0x7f0a00b1"
+            style="@ref/0x7f13000b" />
+
+        <FrameLayout
+            android:id="@ref/0x7f0a00ad"
+            android:background="@attr/0x7f0401f6"
+            android:padding="dimension(2049)"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginRight="dimension(2049)"
+            app:layout_constraintBottom_toBottomOf="@ref/0x7f0a00aa"
+            app:layout_constraintEnd_toStartOf="@ref/0x7f0a00aa"
+            app:layout_constraintTop_toTopOf="@ref/0x7f0a00aa">
+
+            <ImageView
+                android:id="@ref/0x7f0a00ac"
+                android:layout_width="dimension(5121)"
+                android:layout_height="dimension(5121)"
+                android:tint="@ref/0x7f0601b0"
+                app:srcCompat="@ref/0x7f080092" />
+
+            <ImageView
+                android:id="@ref/0x7f0a00ab"
+                android:layout_width="dimension(5121)"
+                android:layout_height="dimension(5121)"
+                android:tint="@ref/0x7f0601b0"
+                app:srcCompat="@ref/0x7f080091" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@ref/0x7f0a00aa"
+            android:background="@attr/0x7f0401f6"
+            android:paddingTop="dimension(2049)"
+            android:paddingRight="dimension(2049)"
+            android:paddingBottom="dimension(2049)"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            app:layout_constraintBottom_toBottomOf="@ref/0x7f0a00a7"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintTop_toTopOf="@ref/0x7f0a00a7">
+
+            <ImageView
+                android:layout_width="dimension(5121)"
+                android:layout_height="dimension(5121)"
+                app:srcCompat="@ref/0x7f08008c" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:layout_gravity="0x50"
+        android:id="@ref/0x7f0a00ae"
+        android:visibility="1"
+        android:layout_width="-1"
+        android:layout_height="dimension(1025)"
+        android:indeterminate="true"
+        app:mpb_progressStyle="1"
+        app:mpb_useIntrinsicPadding="false"
+        style="@ref/0x7f13022c" />
+</androidx.cardview.widget.CardView>
