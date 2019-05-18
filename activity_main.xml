@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@ref/0x7f0a00ec"
+        android:background="@ref/0x7f0601a9"
+        android:layout_width="-1"
+        android:layout_height="-1">
+
+        <ImageView
+            android:layout_gravity="0x11"
+            android:id="@ref/0x7f0a009b"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:src="@ref/0x7f08009d"
+            android:tint="@ref/0x7f0601b0"
+            app:layout_constraintBottom_toBottomOf="0"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toTopOf="0"
+            app:layout_constraintVertical_bias="1056176064.000000" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout
+        android:id="@ref/0x7f0a00e8"
+        android:visibility="1"
+        android:layout_width="-1"
+        android:layout_height="-1">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@ref/0x7f0a00e7"
+            android:visibility="2"
+            android:layout_width="-1"
+            android:layout_height="-2">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@ref/0x7f0a01a9"
+                android:background="@attr/0x7f040096"
+                android:layout_width="-1"
+                android:layout_height="@attr/0x7f040003">
+
+                <TextView
+                    android:textAppearance="@ref/0x7f130166"
+                    android:textColor="@ref/0x7f0601b0"
+                    android:layout_gravity="0x11"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:text="@ref/0x7f1200a5" />
+            </androidx.appcompat.widget.Toolbar>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@ref/0x7f0a00ed"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                app:tabMode="0"
+                style="@ref/0x7f13000e">
+
+            </com.google.android.material.tabs.TabLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="-1"
+            android:layout_height="-1"
+            app:layout_behavior="@ref/0x7f120031">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@ref/0x7f0a01bb"
+                android:layout_width="-1"
+                android:layout_height="-1" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@ref/0x7f0a00ea"
+                android:layout_width="-1"
+                android:layout_height="-1">
+
+                <TextView
+                    android:textSize="dimension(4610)"
+                    android:textColor="@ref/0x7f0601b0"
+                    android:id="@ref/0x7f0a00eb"
+                    android:layout_width="-1"
+                    android:layout_height="-2"
+                    android:layout_marginLeft="dimension(2049)"
+                    android:layout_marginRight="dimension(2049)"
+                    android:layout_marginBottom="dimension(12289)"
+                    android:text="@ref/0x7f1200bc"
+                    app:layout_constraintBottom_toBottomOf="0"
+                    app:layout_constraintEnd_toEndOf="0"
+                    app:layout_constraintStart_toStartOf="0"
+                    app:layout_constraintTop_toTopOf="0" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@ref/0x7f0a00e9"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_marginLeft="dimension(2049)"
+                    android:layout_marginTop="dimension(2049)"
+                    android:layout_marginRight="dimension(2049)"
+                    android:text="@ref/0x7f120080"
+                    app:cornerRadius="dimension(1025)"
+                    app:layout_constraintEnd_toEndOf="0"
+                    app:layout_constraintStart_toStartOf="0"
+                    app:layout_constraintTop_toBottomOf="@ref/0x7f0a00eb"
+                    style="@ref/0x7f13020e" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+    </com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout>
+</FrameLayout>
